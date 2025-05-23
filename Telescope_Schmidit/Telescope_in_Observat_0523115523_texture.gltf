@@ -1,0 +1,173 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 472676,
+            "type": "VEC3",
+            "max": [
+                0.99931800365448,
+                0.7679529786109924,
+                0.8305500149726868
+            ],
+            "min": [
+                -0.9944919943809509,
+                -0.7866160273551941,
+                -0.8222569823265076
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 472676,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                0.999943733215332,
+                1.0
+            ],
+            "min": [
+                -0.9999953508377075,
+                -1.0,
+                -0.9999672174453735
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 472676,
+            "type": "VEC2",
+            "max": [
+                0.99853515625,
+                0.99853515625
+            ],
+            "min": [
+                0.00154876708984375,
+                0.005474090576171875
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 2496378,
+            "type": "SCALAR",
+            "max": [
+                472675
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 25111144,
+            "uri": "Telescope_in_Observat_0523115523_texture_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 5672112,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5672112,
+            "byteLength": 5672112,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 11344224,
+            "byteLength": 3781408,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 15125632,
+            "byteLength": 9985512,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.800000011920929
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Telescope_in_Observat_0523115523_texture",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "mesh_0",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
