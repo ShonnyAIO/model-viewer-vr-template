@@ -1,0 +1,173 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9334,
+            "type": "VEC3",
+            "max": [
+                0.6644449830055237,
+                1.0014309883117676,
+                0.6642330288887024
+            ],
+            "min": [
+                -0.6639090180397034,
+                -1.0072729587554932,
+                -0.668599009513855
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9334,
+            "type": "VEC3",
+            "max": [
+                0.9999310970306396,
+                0.9999831914901733,
+                0.9999772310256958
+            ],
+            "min": [
+                -0.9994083642959595,
+                -0.9999995231628418,
+                -0.9999932050704956
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9334,
+            "type": "VEC2",
+            "max": [
+                0.99853515625,
+                0.99853515625
+            ],
+            "min": [
+                0.0013723373413085938,
+                0.0013723373413085938
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 29988,
+            "type": "SCALAR",
+            "max": [
+                9333
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 418640,
+            "uri": "Stargazer_s_Tool_0523122240_texture_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 112008,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 112008,
+            "byteLength": 112008,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 224016,
+            "byteLength": 74672,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 298688,
+            "byteLength": 119952,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.800000011920929
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Stargazer_s_Tool_0523122240_texture",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "mesh_0",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}

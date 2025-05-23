@@ -1,0 +1,173 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9412,
+            "type": "VEC3",
+            "max": [
+                0.5799040198326111,
+                1.0026509761810303,
+                0.6399170160293579
+            ],
+            "min": [
+                -0.578154981136322,
+                -1.0013190507888794,
+                -0.6488029956817627
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9412,
+            "type": "VEC3",
+            "max": [
+                0.9999208450317383,
+                0.9996046423912048,
+                0.9999903440475464
+            ],
+            "min": [
+                -0.9998759031295776,
+                -0.9999631643295288,
+                -0.9999879598617554
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9412,
+            "type": "VEC2",
+            "max": [
+                0.99853515625,
+                0.99853515625
+            ],
+            "min": [
+                0.0014562606811523438,
+                0.002727508544921875
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 29973,
+            "type": "SCALAR",
+            "max": [
+                9411
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 421076,
+            "uri": "Telescope_on_Tripod_0523120526_texture_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 112944,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 112944,
+            "byteLength": 112944,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 225888,
+            "byteLength": 75296,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 301184,
+            "byteLength": 119892,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.800000011920929
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Telescope_on_Tripod_0523120526_texture",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "mesh_0",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
