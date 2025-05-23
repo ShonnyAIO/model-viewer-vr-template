@@ -1,0 +1,173 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9566,
+            "type": "VEC3",
+            "max": [
+                0.7476180195808411,
+                0.9999819993972778,
+                0.37312600016593933
+            ],
+            "min": [
+                -0.7357839941978455,
+                -0.9992110133171082,
+                -0.36353999376296997
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9566,
+            "type": "VEC3",
+            "max": [
+                0.9994634985923767,
+                0.999457597732544,
+                0.9999944567680359
+            ],
+            "min": [
+                -0.9996212720870972,
+                -0.9985368847846985,
+                -0.9999925494194031
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9566,
+            "type": "VEC2",
+            "max": [
+                0.99951171875,
+                1.0
+            ],
+            "min": [
+                0.00003147125244140625,
+                0.0000749826431274414
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 30000,
+            "type": "SCALAR",
+            "max": [
+                9565
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 426112,
+            "uri": "Historical_Telescope__0523233343_texture_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 114792,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 114792,
+            "byteLength": 114792,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 229584,
+            "byteLength": 76528,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 306112,
+            "byteLength": 120000,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.800000011920929
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Historical_Telescope__0523233343_texture",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "mesh_0",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
