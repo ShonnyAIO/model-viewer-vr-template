@@ -1,0 +1,173 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 10541,
+            "type": "VEC3",
+            "max": [
+                0.9995260238647461,
+                0.9542850255966187,
+                0.9503769874572754
+            ],
+            "min": [
+                -0.9979609847068787,
+                -0.937828004360199,
+                -0.9674969911575317
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 10541,
+            "type": "VEC3",
+            "max": [
+                0.9999892115592957,
+                0.9999858736991882,
+                0.9999973177909851
+            ],
+            "min": [
+                -0.9999999403953552,
+                -0.9999992251396179,
+                -0.9999985098838806
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 10541,
+            "type": "VEC2",
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.000021219253540039063,
+                0.0010166168212890625
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 29994,
+            "type": "SCALAR",
+            "max": [
+                10540
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 457288,
+            "uri": "Electron_Microscope_A_0527201730_texture_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 126492,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 126492,
+            "byteLength": 126492,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 252984,
+            "byteLength": 84328,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 337312,
+            "byteLength": 119976,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.800000011920929
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Electron_Microscope_A_0527201730_texture",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "mesh_0",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
