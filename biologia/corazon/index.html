@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+<body>
+    <!-- Use it like any other HTML element -->
+    <div class="model-view-css-fix">
+        <model-viewer src="5c6e6883c9e808c001ddaa4643cf9d29.glb"
+            camera-controls="" shadow-intensity="0.5"
+            exposure="undefined" ar-scale="fixed" autoplay="" ar="" ar-status="not-presenting">
+            <button class="Hotspot" slot="hotspot-1"
+                data-position="0.0949417925513699m 0.9057886652121621m -0.030297483465088704m"
+                data-normal="0.5094928281739088m 0.5281046604359676m 0.6793544919003356m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotation">Arteria
+                    aorta</div>
+                <div class="line"></div>
+            </button><button class="Hotspot" slot="hotspot-3"
+                data-position="-0.06654764194072349m 0.8441896081504741m 0.036928062566036514m"
+                data-normal="0.027863704240360724m -0.08800751177629876m 0.9957300296048878m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotationLeft">Vena cava superior</div>
+                <div class="lineLeft"></div>
+            </button><button class="Hotspot" slot="hotspot-5"
+                data-position="-0.2148001177873874m 0.6442501422351636m -0.13364852460847415m"
+                data-normal="0.225804232766404m -0.004427605022735287m 0.9741626377451243m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotationLeft">Venas pulmonares</div>
+                <div class="lineLeft"></div>
+            </button><button class="Hotspot" slot="hotspot-9"
+                data-position="-0.03705571222418513m 0.17524567821277603m 0.0036369254853588235m"
+                data-normal="0.11543552609047572m 0.10075549267749796m 0.9881917678323019m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotationLeft">Vena cava inferior</div>
+                <div class="lineLeft"></div>
+            </button><button class="Hotspot" slot="hotspot-12"
+                data-position="-0.03520272651798123m 0.3684021124202044m 0.27211992931629037m"
+                data-normal="-0.6477512125844327m -0.23060004821734906m 0.7261143052974192m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotationLeft">Ventrículo derecho</div>
+                <div class="lineLeft"></div>
+            </button><button class="Hotspot" slot="hotspot-14"
+                data-position="0.3088619979630348m 0.4045394344026265m 0.15374010608318842m"
+                data-normal="0.9912123174325396m 0.051367005023947004m 0.12189984645143943m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Ventrículo izquierdo</div>
+                <div class="line"></div>
+            </button><button class="Hotspot" slot="hotspot-4"
+                data-position="0.15424399573498848m 0.6013345933897103m 0.1769228267997607m"
+                data-normal="0.17951656653029363m 0.4766601831669476m 0.8605631133882203m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotation">Circunfleja izquierda</div>
+                <div class="line"></div>
+            </button><button class="Hotspot" slot="hotspot-7"
+                data-position="0.13736843443917884m 0.438149780987553m 0.28933368821087413m"
+                data-normal="0.7399500940271782m 0.1472825118490795m 0.6563396377277515m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotation">Descendente anterior</div>
+                <div class="line"></div>
+            </button><button class="Hotspot" slot="hotspot-8"
+                data-position="0.2066051587493465m 0.6694570416207544m 0.10376898794783476m"
+                data-normal="0.5241839253684828m 0.5278670602408829m 0.6682720846316546m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotation">Aurícula izquierda</div>
+                <div class="line"></div>
+            </button><button class="Hotspot" slot="hotspot-10"
+                data-position="-0.13395468453305226m 0.6290953800716697m 0.10466524779130813m"
+                data-normal="-0.8350767295135518m 0.3523660600481082m 0.42247486972732856m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotationLeft">Aurícula derecha</div>
+                <div class="lineLeft"></div>
+            </button><button class="Hotspot" slot="hotspot-11"
+                data-position="-0.03614119375989325m 0.5650031532682238m 0.20641121862288164m"
+                data-normal="0.09342006502641313m 0.9352496062443195m 0.34143940234001446m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotationLeft">Arteria Coronaria</div>
+                <div class="lineLeft"></div>
+            </button><button class="Hotspot" slot="hotspot-13"
+                data-position="0.14888234059393232m 0.8232593589913639m -0.040440751740270196m"
+                data-normal="0.27825859879842485m 0.8753253047223475m 0.3954462834664997m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotation">Arteria pulmonar</div>
+                <div class="line"></div>
+            </button>
+            <button class="inverted" slot="ar-button" id="ar-button">
+                Abrir con Cámara
+            </button>
+            <div id="ar-prompt"></div>
+        </model-viewer>
+    </div>
+</body>
+<!-- Loads <model-viewer> for modern browsers: -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<!-- Loads <model-viewer> for old browsers like IE11: -->
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script> 
+
+</html>

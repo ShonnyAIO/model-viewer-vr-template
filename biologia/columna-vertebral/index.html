@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <!-- Use it like any other HTML element -->
+    <div class="model-view-css-fix">
+        <model-viewer src="./ec9295b9e81196c11fe5f7246453caaf.glb" camera-controls="" shadow-intensity="0.5" exposure="undefined"
+            ar-scale="fixed" autoplay="" ar="" ar-status="not-presenting">
+            <button class="Hotspot" slot="hotspot-2"
+                data-position="0.020189240077641352m 1.6673408192086514m -0.1747396793121536m"
+                data-normal="0.9157579927473048m -0.19763003943857058m 0.34975658139760085m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Vértebras torácicas</div>
+                <div class="line"></div>
+            </button><button class="Hotspot" slot="hotspot-3"
+                data-position="0.03393080474696228m 1.1338824972226333m -0.1046718589530757m"
+                data-normal="0.815376051399214m 0.059453618841955144m -0.5758707858636537m"
+                data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Vértebras lumbares</div>
+                <div class="line"></div>
+            </button><button class="Hotspot" slot="hotspot-4"
+                data-position="0.062266895474639296m 0.9943702914536334m -0.08684129769179874m"
+                data-normal="0.25075446251068206m 0.03862878734444225m 0.9672796991146236m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotation">Sacro</div>
+                <div class="line"></div>
+            </button><button class="Hotspot" slot="hotspot-5"
+                data-position="0.0035393077881131518m 0.8845022036822876m -0.16403439017408203m"
+                data-normal="0.09678415896621974m 0.5601984603286387m 0.822684940678158m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotation">Cóccix</div>
+                <div class="line"></div>
+            </button><button class="Hotspot" slot="hotspot-1"
+                data-position="0.005223653664745908m 1.9543119775544753m -0.045129736159678316m"
+                data-normal="0.358306034093934m -0.8852660158486337m 0.2965145310357707m"
+                data-visibility-attribute="visible" data-visible="">
+                <div class="HotspotAnnotation">Vértebras cervicales</div>
+                <div class="line"></div>
+            </button>
+            <button class="inverted" slot="ar-button" id="ar-button">
+                Abrir con Cámara
+            </button>
+            <div id="ar-prompt"></div>
+        </model-viewer>
+    </div>
+</body>
+<!-- Loads <model-viewer> for modern browsers: -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<!-- Loads <model-viewer> for old browsers like IE11: -->
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+</html>
